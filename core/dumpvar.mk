@@ -88,5 +88,8 @@ ifeq ($(CYNGN_TARGET),true)
 $(info   CYNGN_TARGET=$(CYNGN_TARGET))
 $(info   CYNGN_FEATURES=$(CYNGN_FEATURES))
 endif
+ifeq ($(LIQUIFY),TRUE)
+$(info   LIQUIFY=$(LIQUIFY))
+endif
 $(info ============================================)
 endif
